@@ -2,10 +2,10 @@ import {combineReducers, createStore} from "redux"
 import { applyMiddleware } from "redux";
 import thunkMiddleware from "redux-thunk";
 
-import appReducer from "./app-reducer";
+import feedReducer from "./feed-reducer";
 
 let reducers = combineReducers({
-    app : appReducer
+    feed : feedReducer
 });
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware));

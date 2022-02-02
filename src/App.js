@@ -1,11 +1,8 @@
 import React from 'react';
-import HashtagsContainer from "./components/HashtagsContainer";
-import s from './App.module.css'
+import ProductsFeed from './components/ProductsFeed'
 
 const App = () => {
-    return <div className={s.App}>
-        <HashtagsContainer />
-    </div>
+    return <ProductsFeed />
 
 }
 
